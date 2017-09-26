@@ -666,7 +666,6 @@ public final class BatteryService extends SystemService {
         intent.putExtra(BatteryManager.EXTRA_MAX_CHARGING_CURRENT, mBatteryProps.maxChargingCurrent);
         intent.putExtra(BatteryManager.EXTRA_MAX_CHARGING_VOLTAGE, mBatteryProps.maxChargingVoltage);
         intent.putExtra(BatteryManager.EXTRA_CHARGE_COUNTER, mBatteryProps.batteryChargeCounter);
-        intent.putExtra(BatteryManager.EXTRA_DASH_CHARGER, mDashCharger);
 
         intent.putExtra(BatteryManager.EXTRA_MOD_LEVEL, mBatteryProps.modLevel);
         intent.putExtra(BatteryManager.EXTRA_MOD_STATUS, mBatteryProps.modStatus);
